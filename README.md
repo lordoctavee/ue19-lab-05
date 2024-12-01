@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-# ue19-lab-05
-=======
-.
->>>>>>> 2a56610 (Create README.md)
+Permet d'afficher la valeur du bitcoin au moment de l'exécution.
