@@ -16,6 +16,7 @@ try:
     bitcoin_price = data["bitcoin"]["usd"]
 
     print(f"Le prix actuel du Bitcoin est de ${bitcoin_price} USD.")
+    print('end')
 
 except requests.exceptions.RequestException as e:
     print(f"Erreur lors de la requête API : {e}")
