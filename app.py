@@ -15,7 +15,7 @@ try:
     data = response.json()
     bitcoin_price = data["bitcoin"]["usd"]
 
-    print(f"Le prix actuel du Bitcoin est de ${bitcoin_price} USD.")
+    print(f"Le prix actuel du Bitcoin est de  : {bitcoin_price}$ USD.")
 
 except requests.exceptions.RequestException as e:
     print(f"Erreur lors de la requête API : {e}")
